@@ -1,0 +1,17 @@
+<html ng-app="myApp">
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+		<link href="bower_components/angularMultipleSelect/build/multiple-select.min.css" rel="stylesheet">
+		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" />
+	</head>
+	<body>
+		<div class="container" ng-controller="multiselectController">
+			<multiple-autocomplete ng-model="selectedList" object-property="name"      suggestions-arr="optionsList">
+			</multiple-autocomplete>
+		</div>
+		
+
+		<script src="bower_components/angularMultipleSelect/build/multiple-select.min.js"></script>
+		<script src="app.js"></script>
+	</body>
+</html>
